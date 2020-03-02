@@ -1,0 +1,31 @@
+<html>
+<head>
+<h1>Registration page</h1>
+</head>
+<body>
+<form>
+<center>
+<p>User ID:<input type="text" name="user" placeholder="Enter your ID"  pattern="[a-z,A-Z,@,#,%,0-9]{8,12}"required></p>
+<p>password:<input type="password" name="password" placeholder="Enter your password" pattern="[a-z,A-Z,@,#,%,0-9]{8,12}" required></p>
+<p>Name:<input type="text" name="Name" placeholder="Enter Your Name" pattern={25} required></p>
+<p>Address<input type="textbox" placeholder="optional"></p>
+<p>Country:<select id="country">
+<option>Afghanistan</option>
+<option>India</option>
+<option>USA</option>
+<option>Spain</option>
+</select></p>
+<p><input type="number" name="pincode" placeholder="Enter Pincode"></p>
+<p><input type="radio" name="sex" value="male" checked>Male<input type="radio" name="sex" value="female">Female</p>
+<p>Languages Known:<input type="checkbox" value="english" name="english">English
+<input type="checkbox" value="french" name="french">French
+<input type="checkbox" value="dutch" name="dutch">Dutch
+<input type="checkbox" value="spanish" name="spanish">Spanish
+</p>
+<p>Other Details:<input type="text" name="Other_details" placeholder="Other details"></p>
+<p><input type="submit" action="submit" value="Submit"></p>
+
+</center>
+</form>
+</body>
+</html>
